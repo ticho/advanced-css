@@ -12,6 +12,10 @@ ul.nav {
   position: fixed;
 }
 
+.nav > li > a {
+  text-decoration: none;
+}
+
 .nav > li:hover {
   cursor: pointer;
 }
