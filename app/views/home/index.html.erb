@@ -1,7 +1,10 @@
-<ul class="nav">
-  <li><a href="#">Accueil</a></li>
-  <li>À Propos</li>
-  <li>Contact</li>
+<div class="navbar">
+  <div class="navbar-logo">
+    <a href="#"><%= image_tag 'logo.png', class: 'logo' %></a>
+  </div>
+  <div class="navbar-right">
+  <div class="navbar-right-item">À Propos</div>
+  <div class="navbar-right-item">Contact</div>
   <label for="avatar-menu">
     <%= image_tag 'avatar.png', class: "avatar avatar-small" %>
   </label>
@@ -10,7 +13,8 @@
     <div>Profil</div>
     <div>Se déconnecter</div>
   </section>
-</ul>
+  </div>
+</div>
 
 
 <div class="banner">
@@ -42,6 +46,8 @@
       </div>
   </div>
 </div>
+
+<div class="banner-2"></div>
 
 <main class="tab">
 
@@ -116,8 +122,8 @@
 </main>
 
 <div class="container">
-<h2>And because you need one :   </h2>
-<div class="button">Button</div>
+<h2>Don't miss the opportunity and save your spot !</h2>
+<div class="button">Book now</div>
 </div>
 
 <div class="footer">Made with &hearts; by Tibo - THP 2018</div>
