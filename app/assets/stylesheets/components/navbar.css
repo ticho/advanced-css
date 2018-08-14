@@ -1,0 +1,36 @@
+ul.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+  list-style: none;
+  padding: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: blue;
+}
+
+.nav > label {
+  align-self: center;
+}
+
+.nav > label > .avatar {
+  margin-top: 20px;
+  align-self: baseline;
+}
+
+
+
+.nav > .menu{
+  display: none;
+  height: 200px;
+  width: 200px;
+  background: pink;
+  position: fixed;
+  margin-top: 70px;
+  right: 5px;
+}
+
+input:checked + .menu{
+  display: block;
+}
