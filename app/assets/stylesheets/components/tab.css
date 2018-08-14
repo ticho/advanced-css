@@ -1,38 +1,53 @@
-.tab-group {
-  margin-left: 200px;
-  margin-top: 200px;
-  height: 200px;
-  width: 600px;
-  background: green;
-  border: 2px solid black;  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.tab-item > div {
-  display: inline;
-  z-index: 1;
-  width: 600px;
-  height: 170px;
+main {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
 }
 
-.tab-item > a {
-  margin-left: -1px;
-  position: relative;
-  padding-left: 10px;
-  padding-right: 10px;
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
 }
 
-.tab-item > a:hover {
-  border: 1px solid black;
-  border-radius: 5px;
+input {
+  display: none;
 }
 
-.tab-item:target > a {
-  z-index: 1;
-  background: pink;
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
 }
 
-.tab-item:target > div {
-  z-index: 2;
-  position: absolute;
-  background: pink;
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
 }
