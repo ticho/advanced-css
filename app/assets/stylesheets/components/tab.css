@@ -1,0 +1,17 @@
+.tab {
+  height: 200px;
+  width: 600px;
+  border: 2px solid black;  
+}
+
+.tab-title {
+  height: 30px;
+  width: 600px;
+  background: green;
+}
+
+.tab-content {
+  background: grey;
+  width: 600px;
+  height: 85%;
+}
