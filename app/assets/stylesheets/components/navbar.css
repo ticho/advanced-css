@@ -2,12 +2,14 @@ ul.nav {
   display: flex;
   justify-content: space-between;
   height: 60px;
+  width: 100%;
   line-height: 60px;
   list-style: none;
   padding: 15px;
   padding-top: 0;
   padding-bottom: 0;
   background: rgb(85, 126, 193);
+  position: fixed;
 }
 
 .nav > li:hover {
@@ -29,7 +31,7 @@ ul.nav {
   display: none;
   height: 100px;
   width: 200px;
-  background: pink;
+  background: rgb(85, 126, 193);
   position: fixed;
   margin-top: 70px;
   right: 5px;

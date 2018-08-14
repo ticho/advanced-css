@@ -1,5 +1,9 @@
 .banner {
   background-image: url(asset-path("ribeira.jpg"));
+  background-image: url(asset-path("ribeira.jpg")), linear-gradient(90deg, rgba(7,72,152,1) 0%, rgba(0,255,207,1) 50%);
   background-size: cover;
   min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -3,11 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 h1 {
-  margin: 50px;
   text-align: center;
+  color: grey;
 }
 
 .container {
   display: flex;
   justify-content: center;
+  margin-bottom:10px;
 }
